@@ -45,8 +45,8 @@ function MainMenu() {
                             <li><a href="#">Land Area Calculation</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Bankauction</a></li>
-                    <li><a href="#">Pricing</a></li>
+                    <li><Link to="/Property">Bankauction</Link></li>
+                    <li><Link to="/Pricing">Pricing</Link></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>

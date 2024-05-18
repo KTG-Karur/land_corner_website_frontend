@@ -4,6 +4,7 @@ import { HeartinIcon } from '../../../Icons'
 import OverView from './OverView'
 import Featured from './Featured'
 import HorizontalCardDetails from '../Home/HorizontalCardDetails'
+import ViewNumber from './ViewNumber'
 function index() {
     return (
         <div>
@@ -112,23 +113,13 @@ function index() {
                                     </div>
                                 </div>
                                 <Featured />
-                                <div style={{ marginBottom: 20 }}>
-                                    <h3 style={{ margin: '10px 0' }}>Contact Dealer</h3>
-                                    <button className="sc-button btn-icon " id="view_name_number" style={{ border: 'none' }} data-toggle="modal" data-target="#popup_register">
-                                        <span>View name &amp; Number</span>
-                                    </button>
-                                    <div id="dealer" style={{ display: 'none' }}>
-                                        <h6>Ramkumar Ramanadhan</h6>
-                                        <p style={{ fontWeigth: 600, fontSize: 16 }}>8973746385</p>
-                                        <p style={{ fontWeigth: 600, fontSize: 16 }}>9487732543</p>
-                                    </div>
-                                </div>
+                                <ViewNumber />
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section className="flat-sale-detail flat-sale wg-dream wg-dots tf-section">
+            <section className="flat-sale-detail flat-sale wg-dream wg-dots tf-section" style={{ padding: '15px' }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
@@ -142,7 +133,7 @@ function index() {
                                 </p>
                             </div>
                             <div className="swiper-container2">
-                                <HorizontalCardDetails colNo={3}/>
+                                <HorizontalCardDetails colNo={3} />
                             </div>
                         </div>
                     </div>

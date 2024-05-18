@@ -34,28 +34,28 @@ function MobileMenu({ isShow }) {
                                         <ul style={{ display: openDropdown === 0 ? 'block' : 'none' }}>
                                             <li className="dropdown2"><a href="#">Popular Choice</a>
                                                 <ul style={{ display: openInnerDropdown === 0 ? 'block' : 'none' }}>
-                                                    <li><a href="#">Ready to Move</a></li>
-                                                    <li><a href="#">New Projects</a></li>
+                                                    <li><Link to="/Property">Ready to Move</Link></li>
+                                                    <li><Link to="/Property">New Projects</Link></li>
                                                 </ul>
                                                 <div className="dropdown2-btn" onClick={() => handleInnerDropdownClick(0)} />
                                             </li>
                                             <li className="dropdown2"><a href="#">Property type</a>
                                                 <ul style={{ display: openInnerDropdown === 1 ? 'block' : 'none' }}>
-                                                    <li><a href="#">Individual house</a></li>
-                                                    <li><a href="#">Apartment</a></li>
-                                                    <li><a href="#">Plot</a></li>
-                                                    <li><a href="#">Sites</a></li>
-                                                    <li><a href="#">Commercial</a></li>
-                                                    <li><a href="#">Agriculture</a></li>
+                                                    <li><Link to="/Property">Individual house</Link></li>
+                                                    <li><Link to="/Property">Apartment</Link></li>
+                                                    <li><Link to="/Property">Plot</Link></li>
+                                                    <li><Link to="/Property">Sites</Link></li>
+                                                    <li><Link to="/Property">Commercial</Link></li>
+                                                    <li><Link to="/Property">Agriculture</Link></li>
                                                 </ul>
                                                 <div className="dropdown2-btn" onClick={() => handleInnerDropdownClick(1)} />
                                             </li>
                                             <li className="dropdown2"><a href="#">Budget</a>
                                                 <ul style={{ display: openInnerDropdown === 2 ? 'block' : 'none' }}>
-                                                    <li><a href="#">Under &#8377; 50 Lac</a></li>
-                                                    <li><a href="#">&#8377; 50 Lac - &#8377; 1 Cr</a></li>
-                                                    <li><a href="#">&#8377; 1 Cr - &#8377; 2 Cr</a></li>
-                                                    <li><a href="#">Above &#8377; 2 Cr</a></li>
+                                                    <li><Link to="/Property">Under &#8377; 50 Lac</Link></li>
+                                                    <li><Link to="/Property">&#8377; 50 Lac - &#8377; 1 Cr</Link></li>
+                                                    <li><Link to="/Property">&#8377; 1 Cr - &#8377; 2 Cr</Link></li>
+                                                    <li><Link to="/Property">Above &#8377; 2 Cr</Link></li>
                                                 </ul>
                                             </li>
                                             <div className="dropdown2-btn" onClick={() => handleInnerDropdownClick(2)} />
@@ -72,7 +72,7 @@ function MobileMenu({ isShow }) {
                                         </ul>
                                         <div className="dropdown2-btn" onClick={() => handleDropdownClick(1)} />
                                     </li>
-                                    <li><a href="#">Bankauction</a></li>
+                                    <li><Link to="/Property">Bankauction</Link></li>
                                     <li><a href="#">Pricing</a></li>
                                     <li><a href="#">Contact</a></li>
                                 </ul>
