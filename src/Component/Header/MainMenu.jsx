@@ -47,7 +47,7 @@ function MainMenu() {
                     </li>
                     <li><Link to="/Property">Bankauction</Link></li>
                     <li><Link to="/Pricing">Pricing</Link></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><Link to="/ContactUs">Contact</Link></li>
                 </ul>
             </div>
         </nav>

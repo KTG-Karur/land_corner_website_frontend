@@ -7,6 +7,8 @@ import About from './Component/MainComponent/About'
 import Property from './Component/MainComponent/Property'
 import PropertyDetails from './Component/MainComponent/PropertyDetails'
 import Pricing from './Component/MainComponent/Pricing'
+import ContactUs from './Component/MainComponent/ContactUs'
+import PostProperty from './Component/MainComponent/PostProperty'
 function App() {
   return (
     <>
@@ -38,6 +40,8 @@ function App() {
             <Route path='/Property' element={<Property />}></Route>
             <Route path='/PropertyDetails' element={<PropertyDetails />}></Route>
             <Route path='/Pricing' element={<Pricing />}></Route>
+            <Route path='/ContactUs' element={<ContactUs />}></Route>
+            <Route path='/PostProperty' element={<PostProperty />}></Route>
           </Routes>
           {/* Footer */}
           <Footer />
