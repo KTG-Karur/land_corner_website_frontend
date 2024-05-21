@@ -38,11 +38,11 @@ function MainMenu() {
                     </li>
                     <li className="dropdown2"><a href="#">Tools</a>
                         <ul>
-                            <li><a href="#">Faq</a></li>
-                            <li><a href="#">Latest News</a></li>
-                            <li><a href="#">General Information</a></li>
-                            <li><a href="#">EMI</a></li>
-                            <li><a href="#">Land Area Calculation</a></li>
+                        <li><Link to="/Tools/Faq">Faq</Link></li>
+                        <li><Link to="/Tools/Latestnews">Latest News</Link></li>
+                        <li><Link to="/Tools/Generalinformation">General Information</Link></li>
+                        <li><Link to="/Tools/Emi">EMI</Link></li>
+                        <li><Link to="/Tools/Landareacalc">Land Area Calculation</Link></li>
                         </ul>
                     </li>
                     <li><Link to="/Property">Bankauction</Link></li>
