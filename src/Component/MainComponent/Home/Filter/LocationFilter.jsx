@@ -2,7 +2,7 @@ import React from 'react'
 
 function LocationFilter() {
     return (
-        <div className="form-group-3 form-style">
+        <div className="form-group-3 form-style" style={{paddingLeft: '10px'}}>
             <div className="group-select">
                 <div className="nice-select" tabIndex={0}><span className="current">Location</span>
                     <ul className="list">

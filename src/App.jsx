@@ -9,6 +9,7 @@ import PropertyDetails from './Component/MainComponent/PropertyDetails'
 import Pricing from './Component/MainComponent/Pricing'
 import ContactUs from './Component/MainComponent/ContactUs'
 import PostProperty from './Component/MainComponent/PostProperty'
+import LandAreaCalculation from './Component/MainComponent/LandAreaCalculation'
 function App() {
   return (
     <>
@@ -42,6 +43,7 @@ function App() {
             <Route path='/Pricing' element={<Pricing />}></Route>
             <Route path='/ContactUs' element={<ContactUs />}></Route>
             <Route path='/PostProperty' element={<PostProperty />}></Route>
+            <Route path='/LandAreaCalculation' element={<LandAreaCalculation />}></Route>
           </Routes>
           {/* Footer */}
           <Footer />

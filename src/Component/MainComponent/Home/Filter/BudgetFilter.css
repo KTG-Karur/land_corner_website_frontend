@@ -1,0 +1,13 @@
+/* CSS */
+.input-range__label {
+    display: none;
+}
+
+.input-range__slider {
+    background: #226542;
+    border: 2px solid #226542;
+}
+
+.input-range__track--active {
+    background: #226542;
+}
