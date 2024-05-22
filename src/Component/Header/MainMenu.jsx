@@ -42,8 +42,7 @@ function MainMenu() {
                         <li><Link to="/Tools/Latestnews">Latest News</Link></li>
                         <li><Link to="/Tools/Generalinformation">General Information</Link></li>
                         <li><Link to="/Tools/Emi">EMI</Link></li>
-                        <li><Link to="/Tools/Landareacalc">Land Area Calculation</Link></li>
-                        <li><Link to="/LandAreaCalculation">Land Area Calculation</Link></li>
+                        <li><Link to="/Tools/LandAreaCalculator">Land Area Calculation</Link></li>
                         </ul>
                     </li>
                     <li><Link to="/Property">Bankauction</Link></li>

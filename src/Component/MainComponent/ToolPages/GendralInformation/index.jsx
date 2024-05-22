@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import GendralInformation from "./GendralInformation";
+import Faq from "../Faq/Faq";
 
 function index() {
   const [gendralInfoList, setGendralInfoList] = useState([
@@ -35,7 +35,7 @@ function index() {
               </div>
             </div>
             {gendralInfoList.map((list, i) => (
-              <GendralInformation list={list} keys={i} />
+              <Faq list={list} keys={i} />
             ))}
           </div>
         </div>

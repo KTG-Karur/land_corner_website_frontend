@@ -14,7 +14,7 @@ import LatestNews from "./Component/MainComponent/ToolPages/LatestNews";
 import LatestNewsDetails from "./Component/MainComponent/ToolPages/LatestNews/LatestNewsDetails";
 import GendralInformation from "./Component/MainComponent/ToolPages/GendralInformation";
 import EMI from "./Component/MainComponent/ToolPages/Emi";
-import LandAreaCalculation from './Component/MainComponent/LandAreaCalculation'
+import LandAreaCalculator from "./Component/MainComponent/ToolPages/LandAreaCalculator";
 function App() {
   return (
     <>
@@ -52,9 +52,8 @@ function App() {
             <Route path="/Tools/Latestnews" element={<LatestNews />}></Route>
             <Route path="/Tools/Generalinformation" element={<GendralInformation />}></Route>
             <Route path="/Tools/Emi" element={<EMI />}></Route>
-            <Route path="/Tools/Landareacalc" element={<LandAreaCalculator />}></Route>
+            <Route path="/Tools/LandAreaCalculator" element={<LandAreaCalculator />}></Route>
             <Route path="/Tools/LatestNews/NewsDetails" element={<LatestNewsDetails />}></Route>
-            <Route path='/LandAreaCalculation' element={<LandAreaCalculation />}></Route>
           </Routes>
           {/* Footer */}
           <Footer />

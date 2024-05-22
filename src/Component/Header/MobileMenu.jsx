@@ -22,7 +22,7 @@ function MobileMenu({ isShow }) {
                     <div className="nav-logo"><a href="index.html"><img src={logoImage} alt width={197} height={48} /></a></div>
                     <div className="bottom-canvas">
                         <div className="login-box flex align-center">
-                            <LoginIcon/>
+                            <LoginIcon />
                             <a href="#" data-toggle="modal" data-target="#popup_bid" className="fw-7 font-2">Login</a>
                         </div>
                         <div className="menu-outer">
@@ -64,11 +64,11 @@ function MobileMenu({ isShow }) {
                                     </li>
                                     <li className="dropdown2"><a href="#">Tools</a>
                                         <ul style={{ display: openDropdown === 1 ? 'block' : 'none' }}>
-                                            <li><a href="#">Faq</a></li>
-                                            <li><a href="#">Latest News</a></li>
-                                            <li><a href="#">General Information</a></li>
-                                            <li><a href="#">EMI</a></li>
-                                            <li><Link to="/LandAreaCalculation">Land Area Calculation</Link></li>
+                                            <li><Link to="/Tools/Faq">Faq</Link></li>
+                                            <li><Link to="/Tools/Latestnews">Latest News</Link></li>
+                                            <li><Link to="/Tools/Generalinformation">General Information</Link></li>
+                                            <li><Link to="/Tools/Emi">EMI</Link></li>
+                                            <li><Link to="/Tools/LandAreaCalculator">Land Area Calculation</Link></li>
                                         </ul>
                                         <div className="dropdown2-btn" onClick={() => handleDropdownClick(1)} />
                                     </li>
@@ -80,7 +80,7 @@ function MobileMenu({ isShow }) {
                         </div>
                         <div className="button-mobi-sell">
                             <Link className="sc-button btn-icon center" to="/PostProperty">
-                                <SellPropertyIcon/>
+                                <SellPropertyIcon />
                                 <span>Sell Property</span>
                             </Link>
                         </div>
@@ -88,7 +88,7 @@ function MobileMenu({ isShow }) {
                             <h3>Contact</h3>
                             <div className="box flex">
                                 <div className="icon">
-                                    <ContactUsCallBackIcon/>
+                                    <ContactUsCallBackIcon />
                                 </div>
                                 <div className="content fs-13">
                                     Call us: <h5>+91 9876543214</h5>
@@ -96,7 +96,7 @@ function MobileMenu({ isShow }) {
                             </div>
                             <div className="box flex">
                                 <div className="icon">
-                                <ContactUsMailSendIcon/>
+                                    <ContactUsMailSendIcon />
                                 </div>
                                 <div className="content fs-13 lh-16">
                                     Email: <h5>Nammasothu@gmail.com</h5>

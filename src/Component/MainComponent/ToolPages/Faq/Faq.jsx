@@ -1,27 +1,37 @@
 import React from "react";
 
 function Faq(props) {
-   const {list,keys}=props;
- 
+  const { list, keys, show, setShow } = props;
+
+  function handleClick() {
+    setShow(keys);
+  }
+
   return (
-        <div class="col-lg-6" key={keys}>
-          <div id="pagee" class="clearfix">
-            <section class="flat-accordion fl-faq-content">
-              <div class="container">
-                <div class="flat-toggle">
-                  <div class="toggle-title flex align-center">
-                    <i class="fal fa-question-circle"></i>
-                    <div class="fw-6">{list.title}</div>
-                    <div class="btn-toggle"></div>
-                  </div>
-                  <div class="toggle-content section-desc">
-                    <p class="texts text-color-2">{list.desc}</p>
-                  </div>
-                </div>
+    <div className="col-lg-6" key={keys}>
+      <div id="pagee" className="clearfix">
+        <section className="flat-accordion fl-faq-content">
+          <div className="container">
+            <div className="flat-toggle">
+              <div
+                className={`toggle-title flex align-center ${show === keys ? 'active' : ''}`}
+                onClick={handleClick}
+              >
+                <i className="fal fa-question-circle"></i>
+                <div className="fw-6">{list.faq_question}</div>
+                <div className="btn-toggle"></div>
               </div>
-            </section>
+              <div
+                className="toggle-content section-desc"
+                style={{ display: show === keys ? 'block' : 'none' }}
+              >
+                <p className="texts text-color-2">{list.faq_answer}</p>
+              </div>
+            </div>
           </div>
-        </div>
+        </section>
+      </div>
+    </div>
   );
 }
 
