@@ -1,5 +1,6 @@
 import React from 'react'
 import { LoginIcon, SellPropertyIcon } from '../../Icons'
+import { Link } from 'react-router-dom'
 
 function LoginRegister() {
     return (
@@ -18,10 +19,10 @@ function LoginRegister() {
             {/* Login Register */}
             {/* Post Property */}
             <div className="flat-bt-top sc-btn-top">
-                <a className="sc-button btn-icon " href="#">
+                <Link className="sc-button btn-icon" to="/PostProperty">
                     <SellPropertyIcon />
                     <span>Sell Property</span>
-                </a>
+                </Link>
             </div>
             {/* Post Property */}
         </div>

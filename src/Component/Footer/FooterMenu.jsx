@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 function FooterMenu() {
     return (
@@ -6,7 +7,7 @@ function FooterMenu() {
             <div className="widget widget-menu style-3 ">
                 <h3>Our Company</h3>
                 <ul className="box-menu">
-                    <li><a href="#">About Us</a></li>
+                    <li><Link to="/About">About Us</Link></li>
                     <li><a href="#">EMI</a></li>
                     <li><a href="#">Land Area Calculation</a></li>
                     <li><a href="#">General Information</a></li>
@@ -14,7 +15,7 @@ function FooterMenu() {
                     <li><a href="#">Terms & Conditions</a></li>
                     <li><a href="#">Privacy Policy</a></li>
                     <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><Link to="/ContactUs">Contact Us</Link></li>
                 </ul>
             </div>
         </div>

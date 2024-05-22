@@ -42,12 +42,12 @@ function MainMenu() {
                         <li><Link to="/Tools/Latestnews">Latest News</Link></li>
                         <li><Link to="/Tools/Generalinformation">General Information</Link></li>
                         <li><Link to="/Tools/Emi">EMI</Link></li>
-                        <li><Link to="/Tools/Landareacalc">Land Area Calculation</Link></li>
+                        <li><Link to="/Tools/LandAreaCalculator">Land Area Calculation</Link></li>
                         </ul>
                     </li>
                     <li><Link to="/Property">Bankauction</Link></li>
                     <li><Link to="/Pricing">Pricing</Link></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><Link to="/ContactUs">Contact</Link></li>
                 </ul>
             </div>
         </nav>
