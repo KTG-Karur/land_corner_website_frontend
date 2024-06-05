@@ -1,6 +1,7 @@
 import React from 'react'
 import ContactSellerImage from '../../assets/assets/images/icon/footer-icon-1.png';
 import { ContactIcon } from '../../Icons';
+import { Link } from 'react-router-dom';
 function SellerCard() {
     return (
         <div className="col-lg-6 col-md-12 col-12">
@@ -15,10 +16,10 @@ function SellerCard() {
                     </div>
                 </div>
                 <div className="button-footer center">
-                    <a className="sc-button" href="contact.html">
+                    <Link className="sc-button" to="/ContactUs">
                         <ContactIcon/>
                         <span>Contact Seller</span>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import SellPropertyImage from '../../assets/assets/images/icon/footer-icon-2.png';
 import { SellPropertyIcon } from '../../Icons';
+import { Link } from 'react-router-dom';
 
 function PropertyCard() {
     return (
@@ -16,10 +17,10 @@ function PropertyCard() {
                     </div>
                 </div>
                 <div className="button-footer center">
-                    <a className="sc-button" href="properties-grid.html">
+                    <Link className="sc-button" to="/PostProperty">
                         <SellPropertyIcon/>
                         <span>Sell Property</span>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>

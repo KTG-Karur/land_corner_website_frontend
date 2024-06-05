@@ -9,7 +9,7 @@ function ContactFrom() {
                     <div className="col-lg-12">
                         <div id="comments" className="comments bg-white">
                             <div className="respond-comment">
-                                <form method="post" id="contactform" className="comment-form form-submit" action="./contact/contact-process.php" acceptCharset="utf-8" noValidate="novalidate">
+                                <form method="post" id="contactform" className="comment-form form-submit"  acceptCharset="utf-8" noValidate="novalidate">
                                     <div className="text-wrap flex form-wg row">
                                         <fieldset className="info-box col-lg-6 col-sm-12  " style={{ marginLeft: 0, paddingLeft: 22 }}>
                                             <label className="fw-6">Your name</label>

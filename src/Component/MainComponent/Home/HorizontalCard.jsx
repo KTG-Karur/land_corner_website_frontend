@@ -36,6 +36,7 @@ function HorizontalCard({ title, shortDesp, filter, colNo }) {
                                         </li>
                                     </ul>
                                 </div>) : ''}
+                                
                             <div className="content-tab">
                                 <div className="content-inner tab-content">
                                     <div className="swiper-container2">

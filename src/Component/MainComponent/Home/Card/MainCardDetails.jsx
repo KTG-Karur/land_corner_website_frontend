@@ -15,7 +15,7 @@ function MainCardDetails() {
                 </p>
             </div>
             <div className="money fs-20 fw-8 font-2 text-color-3">
-                <a href="property_details.php">$7,500</a>
+                <Link to="/PropertyDetails">$7,500</Link>
             </div>
             <div className="icon-box">
                 <div className=" icons flex">

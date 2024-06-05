@@ -10,7 +10,7 @@ function index({colNo}) {
         <OwlCarousel className='three-carousel owl-carousel owl-theme' loop margin={10} nav items={colNo}>
             <div className="slide-item">
                 <div className="box box-dream hv-one">
-                    <div className="image-group relative ">
+                    <div className="image-group relative">
                         <SideImage />
                     </div>
                     <div className="content">

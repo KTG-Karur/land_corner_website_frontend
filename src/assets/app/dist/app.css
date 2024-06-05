@@ -1259,7 +1259,6 @@
 }
 .sc-button.btn-icon span::before {
   content: "";
-  width: 1px;
   height: 22px;
   background-color: rgba(255, 255, 255, 0.2);
   margin-left: -11px;
@@ -5290,6 +5289,7 @@
 /* Modal Popup  ----------
 -------------------------*/
 .popup .modal-content {
+  
   border-radius: 10px !important;
   border: none !important;
   box-shadow: 0px 3px 16px rgba(47, 83, 109, 0.12) !important;
@@ -5368,6 +5368,7 @@
 }
 
 .modal-content .close {
+  
   overflow: hidden;
   position: absolute;
   right: 42px;
@@ -5405,7 +5406,6 @@
   display: flex;
   align-items: center;
   min-height: calc(100% - 0rem);
-  max-width: 920px;
   margin: auto auto;
 }
 
@@ -8483,7 +8483,7 @@ tr {
 }
 
 thead tr {
-  background-color: #3A3A3C;
+  background-color: #226542;
   color: #fff;
   border-radius: 8px;
 }
@@ -9642,12 +9642,12 @@ path {
   --left: 0;
 }
 .boxes .box > div:nth-child(2) {
-  --background: #d38100;
+  --background: #226542;
   --right: 0;
   --rotateY: 90deg;
 }
 .boxes .box > div:nth-child(3) {
-  --background: #ff9f07;
+  --background: #226542;
   --rotateX: -90deg;
 }
 .boxes .box > div:nth-child(4) {

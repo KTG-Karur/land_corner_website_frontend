@@ -19,7 +19,7 @@ function MobileMenu({ isShow }) {
             <div className="mobile-menu" style={{ visibility: isShow ? 'visible' : 'hidden' }}>
                 <div className="menu-backdrop" />
                 <nav className="menu-box">
-                    <div className="nav-logo"><a href="index.html"><img src={logoImage} alt width={197} height={48} /></a></div>
+                    <div className="nav-logo"><Link to="/"><img src={logoImage} alt width={197} height={48} /></Link></div>
                     <div className="bottom-canvas">
                         <div className="login-box flex align-center">
                             <LoginIcon />
